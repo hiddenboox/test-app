@@ -1,0 +1,19 @@
+{
+  "name": "@app/client",
+  "workspaces": [
+    "api",
+    "client"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "yarn wsrun start",
+    "client": "yarn workspace @app/client",
+    "server": "yarn workspace @app/server"
+  },
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
